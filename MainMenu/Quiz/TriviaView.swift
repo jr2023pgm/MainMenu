@@ -16,7 +16,9 @@ struct TriviaView: View {
                     .lilacTitle()
                 
                 Text("Congratulations, you completed the game!")
+                    .foregroundColor(Color(.black))
                 Text("You scored \(triviaManager.score) out of \(triviaManager.length)")
+                    .foregroundColor(Color(.black))
                 
                 Button {
                     Task.init {
@@ -26,7 +28,7 @@ struct TriviaView: View {
                     PrimaryButton(text: "Play again")
                 }
             }
-            .foregroundColor(Color("AccentColor"))
+            .foregroundColor(Color(.black))
             .padding()
             .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
             .background(Color(.white))

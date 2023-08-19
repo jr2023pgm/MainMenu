@@ -18,7 +18,7 @@ struct QuizAppView: View {
                         .lilacTitle()
                     
                     Text("Are you ready to test out your knowledge?")
-                        .foregroundColor(Color("AccentColor"))
+                        .foregroundColor(Color(.black))
                 }
                 
                 NavigationLink {

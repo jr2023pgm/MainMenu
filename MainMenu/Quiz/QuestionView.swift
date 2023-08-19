@@ -18,7 +18,7 @@ struct QuestionView: View {
                 Spacer()
                 
                 Text("\(triviaManager.index + 1) out of \(triviaManager.length)")
-                    .foregroundColor(Color("AccentColor"))
+                    .foregroundColor(Color(.black))
                     .fontWeight(.heavy)
             }
             
