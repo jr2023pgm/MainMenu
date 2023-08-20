@@ -17,7 +17,7 @@ struct AnswerButton: View {
             .font(.system(size: 40, weight: .bold))
             .foregroundColor(Color.white)
             .background(Color.blue)
-            .clipShape(Circle())
+            .clipShape(RoundedRectangle(cornerSize: /*@START_MENU_TOKEN@*/CGSize(width: 20, height: 10)/*@END_MENU_TOKEN@*/))
             .padding()
     }
 }

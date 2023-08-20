@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B4F7BCB2A91F34700849A4B /* ColourMatching.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4F7BC82A91F34700849A4B /* ColourMatching.png */; };
+		2B4F7BCC2A91F34700849A4B /* Exercises.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4F7BC92A91F34700849A4B /* Exercises.png */; };
+		2B4F7BCD2A91F34700849A4B /* MentalMath.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4F7BCA2A91F34700849A4B /* MentalMath.png */; };
 		2B50C6672A8E845F00A8512C /* MainMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B50C6662A8E845F00A8512C /* MainMenuApp.swift */; };
 		2B50C6692A8E845F00A8512C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B50C6682A8E845F00A8512C /* ContentView.swift */; };
 		2B50C66B2A8E846100A8512C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B50C66A2A8E846100A8512C /* Assets.xcassets */; };
@@ -45,6 +48,7 @@
 		2BBCD05E2A909EFD00741607 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBCD05D2A909EFD00741607 /* Pie.swift */; };
 		2BBCD0602A909F1100741607 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBCD05F2A909F1100741607 /* Grid.swift */; };
 		2BBCD0622A909F2B00741607 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBCD0612A909F2B00741607 /* GridLayout.swift */; };
+		2BBCD0642A90A65200741607 /* InstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBCD0632A90A65200741607 /* InstructionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,14 +69,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2B50C6632A8E845F00A8512C /* MainMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4F7BC82A91F34700849A4B /* ColourMatching.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColourMatching.png; sourceTree = "<group>"; };
+		2B4F7BC92A91F34700849A4B /* Exercises.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Exercises.png; sourceTree = "<group>"; };
+		2B4F7BCA2A91F34700849A4B /* MentalMath.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MentalMath.png; sourceTree = "<group>"; };
+		2B50C6632A8E845F00A8512C /* Revive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Revive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B50C6662A8E845F00A8512C /* MainMenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuApp.swift; sourceTree = "<group>"; };
 		2B50C6682A8E845F00A8512C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2B50C66A2A8E846100A8512C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B50C66D2A8E846100A8512C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2B50C6732A8E846100A8512C /* MainMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MainMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B50C6732A8E846100A8512C /* ReviveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReviveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B50C6772A8E846100A8512C /* MainMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuTests.swift; sourceTree = "<group>"; };
-		2B50C67D2A8E846100A8512C /* MainMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MainMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B50C67D2A8E846100A8512C /* ReviveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReviveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B50C6812A8E846100A8512C /* MainMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuUITests.swift; sourceTree = "<group>"; };
 		2B50C6832A8E846100A8512C /* MainMenuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2B50C6902A8E84B800A8512C /* AnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerButton.swift; sourceTree = "<group>"; };
@@ -106,6 +113,7 @@
 		2BBCD05D2A909EFD00741607 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
 		2BBCD05F2A909F1100741607 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		2BBCD0612A909F2B00741607 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		2BBCD0632A90A65200741607 /* InstructionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,9 +189,9 @@
 		2B50C6642A8E845F00A8512C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B50C6632A8E845F00A8512C /* MainMenu.app */,
-				2B50C6732A8E846100A8512C /* MainMenuTests.xctest */,
-				2B50C67D2A8E846100A8512C /* MainMenuUITests.xctest */,
+				2B50C6632A8E845F00A8512C /* Revive.app */,
+				2B50C6732A8E846100A8512C /* ReviveTests.xctest */,
+				2B50C67D2A8E846100A8512C /* ReviveUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -191,8 +199,12 @@
 		2B50C6652A8E845F00A8512C /* MainMenu */ = {
 			isa = PBXGroup;
 			children = (
+				2B4F7BC82A91F34700849A4B /* ColourMatching.png */,
+				2B4F7BC92A91F34700849A4B /* Exercises.png */,
+				2B4F7BCA2A91F34700849A4B /* MentalMath.png */,
 				2B50C6662A8E845F00A8512C /* MainMenuApp.swift */,
 				2B50C6682A8E845F00A8512C /* ContentView.swift */,
+				2BBCD0632A90A65200741607 /* InstructionsView.swift */,
 				2B356E042A8FDC56005FD57F /* Quiz */,
 				2B356E022A8FDC16005FD57F /* Colours */,
 				2BBCD0402A909CBD00741607 /* Memory */,
@@ -255,9 +267,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2B50C6622A8E845F00A8512C /* MainMenu */ = {
+		2B50C6622A8E845F00A8512C /* Revive */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B50C6872A8E846100A8512C /* Build configuration list for PBXNativeTarget "MainMenu" */;
+			buildConfigurationList = 2B50C6872A8E846100A8512C /* Build configuration list for PBXNativeTarget "Revive" */;
 			buildPhases = (
 				2B50C65F2A8E845F00A8512C /* Sources */,
 				2B50C6602A8E845F00A8512C /* Frameworks */,
@@ -267,14 +279,14 @@
 			);
 			dependencies = (
 			);
-			name = MainMenu;
+			name = Revive;
 			productName = MainMenu;
-			productReference = 2B50C6632A8E845F00A8512C /* MainMenu.app */;
+			productReference = 2B50C6632A8E845F00A8512C /* Revive.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2B50C6722A8E846100A8512C /* MainMenuTests */ = {
+		2B50C6722A8E846100A8512C /* ReviveTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B50C68A2A8E846100A8512C /* Build configuration list for PBXNativeTarget "MainMenuTests" */;
+			buildConfigurationList = 2B50C68A2A8E846100A8512C /* Build configuration list for PBXNativeTarget "ReviveTests" */;
 			buildPhases = (
 				2B50C66F2A8E846100A8512C /* Sources */,
 				2B50C6702A8E846100A8512C /* Frameworks */,
@@ -285,14 +297,14 @@
 			dependencies = (
 				2B50C6752A8E846100A8512C /* PBXTargetDependency */,
 			);
-			name = MainMenuTests;
+			name = ReviveTests;
 			productName = MainMenuTests;
-			productReference = 2B50C6732A8E846100A8512C /* MainMenuTests.xctest */;
+			productReference = 2B50C6732A8E846100A8512C /* ReviveTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2B50C67C2A8E846100A8512C /* MainMenuUITests */ = {
+		2B50C67C2A8E846100A8512C /* ReviveUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B50C68D2A8E846100A8512C /* Build configuration list for PBXNativeTarget "MainMenuUITests" */;
+			buildConfigurationList = 2B50C68D2A8E846100A8512C /* Build configuration list for PBXNativeTarget "ReviveUITests" */;
 			buildPhases = (
 				2B50C6792A8E846100A8512C /* Sources */,
 				2B50C67A2A8E846100A8512C /* Frameworks */,
@@ -303,9 +315,9 @@
 			dependencies = (
 				2B50C67F2A8E846100A8512C /* PBXTargetDependency */,
 			);
-			name = MainMenuUITests;
+			name = ReviveUITests;
 			productName = MainMenuUITests;
-			productReference = 2B50C67D2A8E846100A8512C /* MainMenuUITests.xctest */;
+			productReference = 2B50C67D2A8E846100A8512C /* ReviveUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -331,7 +343,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2B50C65E2A8E845F00A8512C /* Build configuration list for PBXProject "MainMenu" */;
+			buildConfigurationList = 2B50C65E2A8E845F00A8512C /* Build configuration list for PBXProject "Revive" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -344,9 +356,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B50C6622A8E845F00A8512C /* MainMenu */,
-				2B50C6722A8E846100A8512C /* MainMenuTests */,
-				2B50C67C2A8E846100A8512C /* MainMenuUITests */,
+				2B50C6622A8E845F00A8512C /* Revive */,
+				2B50C6722A8E846100A8512C /* ReviveTests */,
+				2B50C67C2A8E846100A8512C /* ReviveUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -357,7 +369,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B50C66E2A8E846100A8512C /* Preview Assets.xcassets in Resources */,
+				2B4F7BCD2A91F34700849A4B /* MentalMath.png in Resources */,
+				2B4F7BCB2A91F34700849A4B /* ColourMatching.png in Resources */,
 				2B50C66B2A8E846100A8512C /* Assets.xcassets in Resources */,
+				2B4F7BCC2A91F34700849A4B /* Exercises.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +406,7 @@
 				2BBCD0482A909D9000741607 /* EmojiMemoryGameViewModel.swift in Sources */,
 				2BBCD0582A909E9400741607 /* String+ToArray.swift in Sources */,
 				2BBCD0372A90994C00741607 /* Answer.swift in Sources */,
+				2BBCD0642A90A65200741607 /* InstructionsView.swift in Sources */,
 				2BBCD03B2A9099C700741607 /* PrimaryButton.swift in Sources */,
 				2BBCD0422A909CEC00741607 /* EmojiMemoryGameView.swift in Sources */,
 				2BBCD0602A909F1100741607 /* Grid.swift in Sources */,
@@ -440,12 +456,12 @@
 /* Begin PBXTargetDependency section */
 		2B50C6752A8E846100A8512C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2B50C6622A8E845F00A8512C /* MainMenu */;
+			target = 2B50C6622A8E845F00A8512C /* Revive */;
 			targetProxy = 2B50C6742A8E846100A8512C /* PBXContainerItemProxy */;
 		};
 		2B50C67F2A8E846100A8512C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2B50C6622A8E845F00A8512C /* MainMenu */;
+			target = 2B50C6622A8E845F00A8512C /* Revive */;
 			targetProxy = 2B50C67E2A8E846100A8512C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -641,7 +657,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MainMenu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MainMenu";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Revive.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Revive";
 			};
 			name = Debug;
 		};
@@ -660,7 +676,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MainMenu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MainMenu";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Revive.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Revive";
 			};
 			name = Release;
 		};
@@ -701,7 +717,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B50C65E2A8E845F00A8512C /* Build configuration list for PBXProject "MainMenu" */ = {
+		2B50C65E2A8E845F00A8512C /* Build configuration list for PBXProject "Revive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B50C6852A8E846100A8512C /* Debug */,
@@ -710,7 +726,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B50C6872A8E846100A8512C /* Build configuration list for PBXNativeTarget "MainMenu" */ = {
+		2B50C6872A8E846100A8512C /* Build configuration list for PBXNativeTarget "Revive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B50C6882A8E846100A8512C /* Debug */,
@@ -719,7 +735,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B50C68A2A8E846100A8512C /* Build configuration list for PBXNativeTarget "MainMenuTests" */ = {
+		2B50C68A2A8E846100A8512C /* Build configuration list for PBXNativeTarget "ReviveTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B50C68B2A8E846100A8512C /* Debug */,
@@ -728,7 +744,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B50C68D2A8E846100A8512C /* Build configuration list for PBXNativeTarget "MainMenuUITests" */ = {
+		2B50C68D2A8E846100A8512C /* Build configuration list for PBXNativeTarget "ReviveUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B50C68E2A8E846100A8512C /* Debug */,

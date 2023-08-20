@@ -60,10 +60,10 @@ struct Colours: View {
                 .font(.largeTitle)
                 .bold()
             HStack {
-                Circle()
+                RoundedRectangle(cornerSize: CGSize(width: 10, height: 10))
                     .fill(Color(red: redActual, green: greenActual, blue: blueActual))
                     .padding()
-                Circle()
+                RoundedRectangle(cornerSize: CGSize(width: 10, height: 10))
                     .fill(Color(red: redSlider, green: greenSlider, blue: blueSlider))
                     .padding()
             }
@@ -79,7 +79,7 @@ struct Colours: View {
                 Alert(title: Text("Your performance"), message: Text(stars()))
             }
             .padding(EdgeInsets(top: 16, leading: 24, bottom: 16, trailing: 24))
-            .background(Color(red: redActual, green: greenActual, blue: blueActual))
+            .background(Color(.black))
             .cornerRadius(.infinity)
             .foregroundColor(.white)
             
@@ -87,7 +87,7 @@ struct Colours: View {
                 Text("Reset")
             }
             .padding(EdgeInsets(top: 16, leading: 24, bottom: 16, trailing: 24))
-            .background(Color(red: redSlider, green: greenSlider, blue: blueSlider))
+            .background(Color(.black))
             .cornerRadius(.infinity)
             .foregroundColor(.white)
             
