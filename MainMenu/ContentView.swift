@@ -13,36 +13,40 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            VStack {
+            ZStack {
+                Color(red: 1, green: 0.780392156862745, blue: 0.364705882352941)
                 VStack {
-                    NavigationLink(destination: MentalMath()) {
-                        Text("Mental math")
+                    VStack {
+                        NavigationLink(destination: MentalMath()) {
+                            Text("Mental math")
+                                .foregroundStyle(.black)
+                        }
+                    }
+                    
+                    NavigationLink(destination: Colours(redSlider: 0.0, greenSlider: 0.0, blueSlider: 0.0)) {
+                        Text("Colours")
                             .foregroundStyle(.black)
                     }
+                    
+                    NavigationLink(destination: QuizAppView()) {
+                        Text("Quiz")
+                            .foregroundStyle(.black)
+                    }
+                    
+                    NavigationLink(destination: ThemeSelectionView(tcManager: ThemeCollectionManager())) {
+                        Text("Memory Game")
+                            .foregroundStyle(.black)
+                    }
+                    
+                    NavigationLink(destination: InstructionsView()) {
+                        Text("Help")
+                            .foregroundStyle(.black)
+                    }
+                    
                 }
-                
-                NavigationLink(destination: Colours(redSlider: 0.0, greenSlider: 0.0, blueSlider: 0.0)) {
-                    Text("Colours")
-                        .foregroundStyle(.black)
-                }
-                
-                NavigationLink(destination: QuizAppView()) {
-                    Text("Quiz")
-                        .foregroundStyle(.black)
-                }
-                
-                NavigationLink(destination: ThemeSelectionView(tcManager: ThemeCollectionManager())) {
-                    Text("Memory Game")
-                        .foregroundStyle(.black)
-                }
-                
-                NavigationLink(destination: InstructionsView()) {
-                    Text("Help")
-                        .foregroundStyle(.black)
-                }
-                
+                .padding()
             }
-            .padding()
+            .ignoresSafeArea()
         }
     }
 }
