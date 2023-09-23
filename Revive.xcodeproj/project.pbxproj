@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2B4F7BCB2A91F34700849A4B /* ColourMatching.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4F7BC82A91F34700849A4B /* ColourMatching.png */; };
 		2B4F7BCC2A91F34700849A4B /* Exercises.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4F7BC92A91F34700849A4B /* Exercises.png */; };
-		2B4F7BCD2A91F34700849A4B /* MentalMath.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4F7BCA2A91F34700849A4B /* MentalMath.png */; };
 		2B4F7BCF2A9253EC00849A4B /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4F7BCE2A9253EC00849A4B /* SplashScreenView.swift */; };
 		2B4F7BD12A9254D300849A4B /* Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B4F7BD02A9254D300849A4B /* Logo.jpg */; };
 		2B50C6672A8E845F00A8512C /* MainMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B50C6662A8E845F00A8512C /* MainMenuApp.swift */; };
@@ -73,7 +72,6 @@
 /* Begin PBXFileReference section */
 		2B4F7BC82A91F34700849A4B /* ColourMatching.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColourMatching.png; sourceTree = "<group>"; };
 		2B4F7BC92A91F34700849A4B /* Exercises.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Exercises.png; sourceTree = "<group>"; };
-		2B4F7BCA2A91F34700849A4B /* MentalMath.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MentalMath.png; sourceTree = "<group>"; };
 		2B4F7BCE2A9253EC00849A4B /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		2B4F7BD02A9254D300849A4B /* Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logo.jpg; sourceTree = "<group>"; };
 		2B50C6632A8E845F00A8512C /* Revive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Revive.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -205,7 +203,6 @@
 			children = (
 				2B4F7BC82A91F34700849A4B /* ColourMatching.png */,
 				2B4F7BC92A91F34700849A4B /* Exercises.png */,
-				2B4F7BCA2A91F34700849A4B /* MentalMath.png */,
 				2B4F7BD02A9254D300849A4B /* Logo.jpg */,
 				2B4F7BCE2A9253EC00849A4B /* SplashScreenView.swift */,
 				2B50C6662A8E845F00A8512C /* MainMenuApp.swift */,
@@ -375,7 +372,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B50C66E2A8E846100A8512C /* Preview Assets.xcassets in Resources */,
-				2B4F7BCD2A91F34700849A4B /* MentalMath.png in Resources */,
 				2B4F7BD12A9254D300849A4B /* Logo.jpg in Resources */,
 				2B4F7BCB2A91F34700849A4B /* ColourMatching.png in Resources */,
 				2B50C66B2A8E846100A8512C /* Assets.xcassets in Resources */,
@@ -602,6 +598,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MainMenu/Preview Content\"";
+				DEVELOPMENT_TEAM = WAYTGANJF2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -609,6 +606,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -630,6 +628,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MainMenu/Preview Content\"";
+				DEVELOPMENT_TEAM = WAYTGANJF2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -637,6 +636,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

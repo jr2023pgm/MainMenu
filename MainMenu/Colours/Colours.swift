@@ -56,7 +56,7 @@ struct Colours: View {
     
     var body: some View {
         VStack (spacing: 20) {
-            Text("Match this Colour")
+            Text("Match the Colours!")
                 .font(.largeTitle)
                 .bold()
             HStack {
