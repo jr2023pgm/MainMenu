@@ -17,7 +17,7 @@ struct QuizAppView: View {
                     Text("Quiz")
                         .lilacTitle()
                     
-                    Text("Are you ready to test out your knowledge?")
+                    Text("Are you ready to test your knowledge?")
                         .foregroundColor(Color(.black))
                 }
                 

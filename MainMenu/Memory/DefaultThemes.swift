@@ -44,6 +44,6 @@ struct DefaultThemes {
     static let theme5 = ThemeCollection.Theme (
         name: "Vehicles on Road",
         accentColor: UIColor(Color.purple),
-        emojiSet: ["🚎","🛵","🚕","🚓","🚑","🚚","🚒"]
+        emojiSet: ["🚎","🛵","🚕","🚓","🚑","🚚"]
     )
 }

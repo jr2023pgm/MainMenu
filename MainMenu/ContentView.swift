@@ -16,17 +16,19 @@ struct ContentView: View {
             ZStack {
                 Color(red: 1, green: 0.780392156862745, blue: 0.364705882352941)
                 VStack {
-                    Text("Revive")
-                        .foregroundStyle(.black)
+                    Image("LogoNoBG")
+                        .resizable()
+                        .scaledToFit()
                     HStack {
                         NavigationLink(destination: MentalMath()) {
                             VStack {
                                 Image(systemName: "plus.forwardslash.minus")
                                     .renderingMode(.original)
                                     .font(.system(size: 50))
-                                    .tint(Color(red: 0.0011, green: 0.777, blue: 0.742))
+                                    .tint(Color(red: 1, green: 0, blue: 0))
                                 Text("Mental Math")
                                     .foregroundStyle(.black)
+                                    .font(.system(size: 20))
                             }
                         }
                         .padding()
@@ -38,6 +40,7 @@ struct ContentView: View {
                                     .font(.system(size: 50))
                                 Text("Colour Match")
                                     .foregroundStyle(.black)
+                                    .font(.system(size: 20))
                             }
                         }
                         .padding()
@@ -54,6 +57,7 @@ struct ContentView: View {
                                     .tint(Color(red: 0.24275, green: 0.3359375, blue: 0.83984375))
                                 Text("Trivia Game")
                                     .foregroundStyle(.black)
+                                    .font(.system(size: 20))
                             }
                         }
                         .padding()
@@ -66,12 +70,15 @@ struct ContentView: View {
                                     .tint(Color(red: 1, green: 0.171875, blue: 0.33203125))
                                 Text("Memory Game")
                                     .foregroundStyle(.black)
+                                    .font(.system(size: 20))
                             }
                         }
                         .padding()
                     
                     }
                     .padding()
+                    
+                    Spacer()
                         
                         NavigationLink(destination: InstructionsView()) {
                             VStack {
@@ -80,11 +87,16 @@ struct ContentView: View {
                                     .font(.system(size: 50))
                                 Text("Help")
                                     .foregroundStyle(.black)
+                                    .font(.system(size: 20))
                             }
                         }
-                        
+                        .padding()
+                    
+                    Spacer()
+                    Spacer()
                     
                 }
+                .padding()
                 
             }
             .ignoresSafeArea()

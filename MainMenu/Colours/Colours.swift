@@ -34,7 +34,7 @@ struct Colours: View {
     }
     
     func stars() -> String {
-        let difference = Int(abs((redActual*255) * (greenActual * 255) * (blueActual * 255) - (redSlider*255) * (greenSlider * 255) * (blueSlider * 255)))
+        let difference = Int(abs(((redActual+1)*255) * ((greenActual+1) * 255) * ((blueActual+1) * 255) - ((redSlider+1)*255) * ((greenSlider+1) * 255) * ((blueSlider+1) * 255)))
         
         if (difference < 1048576) {
             return "⭐️⭐️⭐️⭐️"
