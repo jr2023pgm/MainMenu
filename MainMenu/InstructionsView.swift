@@ -20,7 +20,7 @@ struct InstructionsView: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding()
             
-            Text("An addition question will be displayed on screen, and the user has to select the correct option from the options given. A correct answer will increase the score, and an incorrect answer will reduce the score.")
+            Text("Sharpen your mental math by working on these mathematics questions!")
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding()
             
@@ -29,7 +29,7 @@ struct InstructionsView: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding()
             
-            Text("The colours game is a game to improve the visual skills of the player. A colour will be displayed on screen, and the user can use the given RGB colour sliders to try to match the given colour as accurately as possible. The app will then rate the user's colour, based on how accurate they were.")
+            Text("Do you have the artist's eye to correctly match the colours?")
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding()
             
@@ -38,7 +38,7 @@ struct InstructionsView: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding()
             
-            Text("This is a quiz game which gets its questions from an online API. There are 10 questions, and the app will display the user's score at the end.")
+            Text("Test your general knowledge with the thought-provoking questions in this quiz!")
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding()
             
@@ -47,7 +47,7 @@ struct InstructionsView: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding()
             
-            Text("This is a memory game, in which users have to match cards. The cards will change depending on the theme selected. The user can also modify the themes if they wish.")
+            Text("Push your memory to the limits and match the cards as quickly as you can!")
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding()
             
